@@ -1,0 +1,27 @@
+{
+  "name": "claude-skills-cli",
+  "version": "0.1.0",
+  "description": "Install Claude Code skills from a git repo, URL, or local path into ~/.claude/skills",
+  "type": "module",
+  "bin": {
+    "skills": "bin/skills.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node bin/skills.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skills",
+    "cli"
+  ],
+  "license": "MIT"
+}
